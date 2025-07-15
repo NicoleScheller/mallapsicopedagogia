@@ -1,0 +1,55 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f9f9f9;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.anio {
+  margin-bottom: 30px;
+}
+
+.anio h2 {
+  color: #444;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+}
+
+.materias {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.materia {
+  padding: 10px 15px;
+  background-color: #d0eaff;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.materia:hover {
+  background-color: #a8d1f0;
+}
+
+#info-box {
+  margin-top: 30px;
+  padding: 15px;
+  background: #ffffff;
+  border: 1px solid #ccc;
+  width: 80%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.oculto {
+  display: none;
+}
+estilos del sitio
